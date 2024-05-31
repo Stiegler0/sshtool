@@ -1,0 +1,33 @@
+May 13 00:31:06 stiegler-Precision-3581 sshd[54213]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.34  user=stiegler
+May 13 00:31:08 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.34 port 53222 ssh2
+May 13 00:31:10 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.34 port 53222 ssh2
+May 13 00:31:11 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.35 port 53222 ssh2
+May 13 00:40:00 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.35 port 53222 ssh2
+
+May 13 00:31:11 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.34 port 53222 ssh2
+May 13 00:31:12 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.34 port 53222 ssh2
+May 13 00:31:13 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.34 port 53222 ssh2
+May 13 00:31:15 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:16 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:17 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:18 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:19 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:25 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:26 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:27 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:31:28 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:32:14 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:32:15 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+May 13 00:32:24 stiegler-Precision-3581 sshd[54213]: Failed password for stiegler from 192.168.0.32 port 53222 ssh2
+
+
+
+
+
+[
+    {'ip_address': '192.168.0.34', 'time': 'May 13 00:31:06', 'failure_type': 'authentication failure'},
+ {'ip_address': '192.168.0.34', 'time': 'May 13 00:31:08', 'failure_type': 'Failed password'}, 
+ {'ip_address': '192.168.0.34', 'time': 'May 13 00:31:10', 'failure_type': 'Failed password'},
+  {'ip_address': '192.168.0.35', 'time': 'May 13 00:31:11', 'failure_type': 'Failed password'},
+   {'ip_address': '192.168.0.35', 'time': 'May 13 00:40:00', 'failure_type': 'Failed password'}
+   ]
