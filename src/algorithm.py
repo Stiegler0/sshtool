@@ -14,7 +14,7 @@ failed = [
 
 # Totale de tentative dans une durrée:
 
-def time_interval_for_exactIP(ip,count_dict,failed,timetreshold):
+def algo(ip,count_dict,failed,timetreshold):
 
     output = {'ip': ip, 'tim': [], 'nombre de tentatives': count_dict.get(ip,0)}
     timetreshold = timedelta(seconds=timetreshold)
@@ -41,6 +41,7 @@ def time_interval_for_exactIP(ip,count_dict,failed,timetreshold):
                 output['tim'].append(time.strftime('%Y-%m-%d %H:%M:%S'))
 
 
+    print(f"dans {timetreshold}: {output['nombre de tentatives']}")
     return output
     #  debut_form = datetime.strptime(i,date_format)
     #   last_defined = debut_form + timetreshold
@@ -63,7 +64,7 @@ def time_interval_for_exactIP(ip,count_dict,failed,timetreshold):
 
 
 
-test = time_interval_for_exactIP('192.168.0.34',attempts_dict,failed,20)
+test = algo('192.168.0.34',attempts_dict,failed,20)
 print(test)
 
 
